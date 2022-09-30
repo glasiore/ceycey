@@ -220,8 +220,6 @@ var sayi = 24.21393283;
 
     // precisian fixed
 
-console.log(a);
-
 // // dataTypes
 // // operators
 // // stirng operations toUpperCase gibi length trim stirng merge cesitleri
@@ -375,7 +373,7 @@ function getDoblue(val1) {
 // false || true=> true
 // false || false => false
 
-// en az bir tane  personList_2 benzeri bi obje array yapısı üret gercek hayttan ornek bul tip: kutuphane sistemi 
+// en az bir tane  personList_2 benzeri bir obje array yapısı üret gercek hayttan ornek bul tip: kutuphane sistemi 
 
 // kitapTipinde 
 // liste icinde en az 3 kitap olsun 
@@ -399,3 +397,113 @@ function getDoblue(val1) {
 ////////
 
 
+//New Subject - Functions and Iterations 
+
+
+// Kütüphane Sistemi - personList_2
+
+var year = 2023;
+var books_2023 = [
+    {
+      Book_Name: "Harry Potter and the Philosopher's Stone",
+      Autor: {
+        name: "Joanne Kathleen",
+        sirname: "Rowling",
+        website: "http://www.jkrowling.com/",
+        genre: "Fiction, Young Adult, Fantasy",
+        born: "Yate, South Gloucestershire, England, The United Kingdom",
+            },
+      Publish_Property: {
+        year: 1977,
+        type: "Paper",
+      },
+      Language: "English",
+      Genre: "Fantasy",
+      Stock: 74,
+      InStock: true,
+    },
+    {
+      Book_Name: "The Lightning Thief",
+      Autor: {
+        name: "Rick",
+        sirname: "Riordan",
+        website: "http://www.rickriordan.com/",
+        genre: "Children's, Science Fiction & Fantasy",
+        born: "San Antonio, Texas, The United States",
+            },
+      Publish_Property: {
+        year: 2022,
+        type: "Paper",
+      },
+      Language: "English",
+      Genre: "Fantasy",
+      Stock: 99,
+      InStock: true,
+    },
+    {
+      Book_Name: "Carrie Soto Is Back",
+      Autor: {
+        name: "Taylor Jankins",
+        sirname: "Reid",
+        website: "http://www.taylorjenkinsreid.com/",
+        genre: "Fiction",
+        born: "The United States",
+            },
+      Publish_Property: {
+        year: 2022,
+        type: "Paper",
+      },
+      Language: "English",
+      Genre: "Horror",
+      Stock: 88,
+      InStock: true,
+    },
+    {
+      Book_Name: "The Book Eaters",
+      Autor: {
+        name: "Sunyi",
+        sirname: "Dean",
+        website: "https://www.sunyidean.com/",
+        genre: "Fantasy, Science Fiction, Horror",
+        born: "Denton, Texas, The United States",
+            },
+      Publish_Property: {
+        year: 2022,
+        type: "Paper",
+      },
+      Language: "English",
+      Genre: "Horror",
+      Stock: 38,
+      InStock: true,
+    },
+    {
+      Book_Name: "The Great Man Theory",
+      Autor: {
+        name: "Teddy",
+        sirname: "Wayne",
+        website: "http://www.elisaalbert.com/",
+        genre: "Literature & Fiction, Short Stories",
+        born: "Los Angeles, California, The United States",
+            },
+      Publish_Property: {
+        year: 2022,
+        type: "Paper",
+      },
+      Language: "English",
+      Genre: "Novel",
+      Stock: 0,
+      InStock: false,
+    },
+]
+
+console.log("%cTop " + books_2023.length + " Books of " + year + " by CeyCey Academy", "color: green; background: yellow; font-size: 20px");
+
+console.log(books_2023[0].Book_Name + "\nGenre:" + books_2023[0].Genre + "\n" + "Publish Year: " + books_2023[0].Publish_Property.year + "\nLanguage: " + books_2023[0].Language + "\nType: " + books_2023[0].Publish_Property.type + "\nAutor: " + books_2023[0].Autor.name + " " + books_2023[0].Autor.sirname + "\n  " + books_2023[0].Autor.born + "\n  " + books_2023[0].Autor.genre + "\n  " + books_2023[0].Autor.website + "\nStock: " + books_2023[0].Stock)
+
+console.log(books_2023[1].Book_Name + "\nGenre:" + books_2023[1].Genre + "\n" + "Publish Year: " + books_2023[1].Publish_Property.year + "\nLanguage: " + books_2023[1].Language + "\nType: " + books_2023[1].Publish_Property.type + "\nAutor: " + books_2023[1].Autor.name + " " + books_2023[1].Autor.sirname + "\n  " + books_2023[1].Autor.born + "\n  " + books_2023[1].Autor.genre + "\n  " + books_2023[1].Autor.website + "\nStock: " + books_2023[1].Stock)
+
+console.log(books_2023[2].Book_Name + "\nGenre:" + books_2023[2].Genre + "\n" + "Publish Year: " + books_2023[2].Publish_Property.year + "\nLanguage: " + books_2023[2].Language + "\nType: " + books_2023[2].Publish_Property.type + "\nAutor: " + books_2023[2].Autor.name + " " + books_2023[2].Autor.sirname + "\n  " + books_2023[2].Autor.born + "\n  " + books_2023[2].Autor.genre + "\n  " + books_2023[2].Autor.website + "\nStock: " + books_2023[2].Stock)
+
+console.log(books_2023[3].Book_Name + "\nGenre:" + books_2023[3].Genre + "\n" + "Publish Year: " + books_2023[3].Publish_Property.year + "\nLanguage: " + books_2023[3].Language + "\nType: " + books_2023[3].Publish_Property.type + "\nAutor: " + books_2023[3].Autor.name + " " + books_2023[3].Autor.sirname + "\n  " + books_2023[3].Autor.born + "\n  " + books_2023[3].Autor.genre + "\n  " + books_2023[3].Autor.website + "\nStock: " + books_2023[3].Stock)
+
+console.log(books_2023[4].Book_Name + "\nGenre:" + books_2023[4].Genre + "\n" + "Publish Year: " + books_2023[4].Publish_Property.year + "\nLanguage: " + books_2023[4].Language + "\nType: " + books_2023[4].Publish_Property.type + "\nAutor: " + books_2023[4].Autor.name + " " + books_2023[4].Autor.sirname + "\n  " + books_2023[4].Autor.born + "\n  " + books_2023[4].Autor.genre + "\n  " + books_2023[4].Autor.website + "\nStock: " + books_2023[4].Stock)
